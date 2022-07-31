@@ -4,6 +4,8 @@
 	access_occupy = list(access_brig)
 	icon_state = "special_lootcloset"
 
+/obj/structure/closet/secure_closet/personal/security/empty/populate_contents()
+
 /obj/map_data/samara
 	name = "Samara"
 	is_station_level = TRUE

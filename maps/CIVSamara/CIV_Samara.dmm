@@ -1571,43 +1571,43 @@
 "Ek" = (/obj/machinery/light{dir = 4},/obj/machinery/disposal,/obj/structure/disposalpipe/trunk{dir = 8},/turf/simulated/floor/tiled/dark,/area/samara/command/bridge)
 "El" = (/obj/machinery/door/airlock/command{req_access = list(19)},/obj/machinery/door/firedoor,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/tiled/dark,/area/samara/command/bridge)
 "Em" = (/obj/machinery/door/airlock/command{req_access = list(19)},/obj/structure/disposalpipe/segment,/obj/machinery/door/firedoor,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/tiled/dark,/area/samara/command/bridge)
-"En" = (/turf/simulated/wall/r_wall,/area/samara/command)
-"Eo" = (/obj/machinery/alarm{dir = 4; pixel_x = -22},/obj/structure/cable/orange{icon_state = "2-4"},/turf/simulated/floor/tiled/dark,/area/samara/command)
-"Ep" = (/obj/structure/cable/orange{icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/tiled/dark,/area/samara/command)
-"Eq" = (/obj/structure/cable/orange{icon_state = "4-8"},/turf/simulated/floor/tiled/dark,/area/samara/command)
-"Er" = (/obj/machinery/power/apc{dir = 1; name = "North APC"; pixel_y = 28},/obj/structure/cable/yellow{d2 = 2; icon_state = "0-2"},/obj/structure/cable/orange{dir = 4; icon_state = "0-1"},/turf/simulated/floor/tiled/dark,/area/samara/command)
-"Es" = (/obj/machinery/newscaster{pixel_y = 27},/turf/simulated/floor/tiled/dark,/area/samara/command)
-"Et" = (/turf/simulated/floor/tiled/dark,/area/samara/command)
-"Eu" = (/obj/structure/extinguisher_cabinet{pixel_y = 27},/turf/simulated/floor/tiled/dark,/area/samara/command)
-"Ev" = (/obj/structure/cable/orange{icon_state = "2-4"},/obj/structure/disposalpipe/junction{dir = 2; icon_state = "pipe-j2"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/tiled/dark,/area/samara/command)
-"Ew" = (/obj/structure/cable/orange{icon_state = "4-8"},/obj/structure/disposalpipe/segment{dir = 4},/turf/simulated/floor/tiled/dark,/area/samara/command)
-"Ex" = (/obj/machinery/light{dir = 1},/obj/structure/cable/orange{icon_state = "4-8"},/obj/structure/disposalpipe/segment{dir = 4},/turf/simulated/floor/tiled/dark,/area/samara/command)
-"Ey" = (/obj/structure/cable/orange{icon_state = "2-8"},/obj/structure/disposalpipe/segment{dir = 4},/turf/simulated/floor/tiled/dark,/area/samara/command)
-"Ez" = (/obj/structure/disposalpipe/segment{dir = 4},/turf/simulated/floor/tiled/dark,/area/samara/command)
-"EA" = (/obj/machinery/disposal,/obj/structure/disposalpipe/trunk{dir = 8},/turf/simulated/floor/tiled/dark,/area/samara/command)
+"En" = (/obj/effect/overmap/ship/samara,/turf/space,/area/space)
+"Eo" = (/obj/machinery/alarm{dir = 4; pixel_x = -22},/obj/structure/cable/orange{icon_state = "2-4"},/turf/simulated/floor/tiled/dark,/area/samara/command/bridge)
+"Ep" = (/obj/structure/cable/orange{icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/tiled/dark,/area/samara/command/bridge)
+"Eq" = (/obj/structure/cable/orange{icon_state = "4-8"},/turf/simulated/floor/tiled/dark,/area/samara/command/bridge)
+"Er" = (/obj/machinery/power/apc{dir = 1; name = "North APC"; pixel_y = 28},/obj/structure/cable/yellow{d2 = 2; icon_state = "0-2"},/obj/structure/cable/orange{dir = 4; icon_state = "0-1"},/turf/simulated/floor/tiled/dark,/area/samara/command/bridge)
+"Es" = (/obj/machinery/newscaster{pixel_y = 27},/turf/simulated/floor/tiled/dark,/area/samara/command/bridge)
+"Et" = (/obj/structure/extinguisher_cabinet{pixel_y = 27},/turf/simulated/floor/tiled/dark,/area/samara/command/bridge)
+"Eu" = (/obj/structure/cable/orange{icon_state = "2-4"},/obj/structure/disposalpipe/junction{dir = 2; icon_state = "pipe-j2"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/tiled/dark,/area/samara/command/bridge)
+"Ev" = (/obj/structure/cable/orange{icon_state = "4-8"},/obj/structure/disposalpipe/segment{dir = 4},/turf/simulated/floor/tiled/dark,/area/samara/command/bridge)
+"Ew" = (/obj/machinery/light{dir = 1},/obj/structure/cable/orange{icon_state = "4-8"},/obj/structure/disposalpipe/segment{dir = 4},/turf/simulated/floor/tiled/dark,/area/samara/command/bridge)
+"Ex" = (/obj/structure/cable/orange{icon_state = "2-8"},/obj/structure/disposalpipe/segment{dir = 4},/turf/simulated/floor/tiled/dark,/area/samara/command/bridge)
+"Ey" = (/obj/structure/disposalpipe/segment{dir = 4},/turf/simulated/floor/tiled/dark,/area/samara/command/bridge)
+"Ez" = (/obj/machinery/disposal,/obj/structure/disposalpipe/trunk{dir = 8},/turf/simulated/floor/tiled/dark,/area/samara/command/bridge)
+"EA" = (/obj/structure/cable/orange{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 6},/turf/simulated/floor/tiled/dark,/area/samara/command/bridge)
 "EB" = (/turf/simulated/wall/r_wall,/area/samara/command/fo)
-"EC" = (/obj/structure/cable/orange{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 6},/turf/simulated/floor/tiled/dark,/area/samara/command)
-"ED" = (/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 8},/obj/machinery/atmospherics/pipe/manifold/hidden/supply,/turf/simulated/floor/tiled/dark,/area/samara/command)
-"EE" = (/obj/structure/cyberplant,/obj/machinery/light,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor/tiled/dark,/area/samara/command)
-"EF" = (/obj/structure/cable/yellow{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor/tiled/dark,/area/samara/command)
-"EG" = (/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable/yellow{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor/tiled/dark,/area/samara/command)
-"EH" = (/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor/tiled/dark,/area/samara/command)
-"EI" = (/obj/structure/cyberplant,/obj/machinery/light,/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor/tiled/dark,/area/samara/command)
-"EJ" = (/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable/orange{icon_state = "1-2"},/obj/structure/disposalpipe/segment,/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,/obj/machinery/atmospherics/pipe/manifold/hidden/supply,/turf/simulated/floor/tiled/dark,/area/samara/command)
-"EK" = (/obj/structure/cable/yellow{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/structure/cable/yellow{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 1},/turf/simulated/floor/tiled/dark,/area/samara/command)
-"EL" = (/obj/structure/cable/yellow{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/structure/cable/orange{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 10},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 10},/turf/simulated/floor/tiled/dark,/area/samara/command)
-"EM" = (/obj/machinery/light{dir = 4},/obj/structure/closet/emcloset,/turf/simulated/floor/tiled/dark,/area/samara/command)
+"EC" = (/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 8},/obj/machinery/atmospherics/pipe/manifold/hidden/supply,/turf/simulated/floor/tiled/dark,/area/samara/command/bridge)
+"ED" = (/obj/structure/cyberplant,/obj/machinery/light,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor/tiled/dark,/area/samara/command/bridge)
+"EE" = (/obj/structure/cable/yellow{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor/tiled/dark,/area/samara/command/bridge)
+"EF" = (/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable/yellow{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor/tiled/dark,/area/samara/command/bridge)
+"EG" = (/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor/tiled/dark,/area/samara/command/bridge)
+"EH" = (/obj/structure/cyberplant,/obj/machinery/light,/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor/tiled/dark,/area/samara/command/bridge)
+"EI" = (/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable/orange{icon_state = "1-2"},/obj/structure/disposalpipe/segment,/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,/obj/machinery/atmospherics/pipe/manifold/hidden/supply,/turf/simulated/floor/tiled/dark,/area/samara/command/bridge)
+"EJ" = (/obj/structure/cable/yellow{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/structure/cable/yellow{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 1},/turf/simulated/floor/tiled/dark,/area/samara/command/bridge)
+"EK" = (/obj/structure/cable/yellow{d1 = 2; d2 = 8; icon_state = "2-8"},/obj/structure/cable/orange{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 10},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 10},/turf/simulated/floor/tiled/dark,/area/samara/command/bridge)
+"EL" = (/obj/machinery/light{dir = 4},/obj/structure/closet/emcloset,/turf/simulated/floor/tiled/dark,/area/samara/command/bridge)
+"EM" = (/obj/structure/cable/orange{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/tiled/dark,/area/samara/command/bridge)
 "EN" = (/obj/machinery/power/smes/buildable/substation,/obj/structure/cable/orange{icon_state = "0-4"},/turf/simulated/floor/tiled/dark/techfloor_grid,/area/samara/command/fo)
 "EO" = (/obj/structure/cable/orange{icon_state = "4-8"},/obj/spawner/scrap/low_chance,/turf/simulated/floor/tiled/dark/techfloor_grid,/area/samara/command/fo)
 "EP" = (/obj/structure/cable/orange{icon_state = "4-8"},/obj/structure/cable/orange{icon_state = "2-8"},/obj/machinery/craftingstation,/obj/spawner/toolbox,/turf/simulated/floor/tiled/dark/techfloor_grid,/area/samara/command/fo)
 "EQ" = (/obj/structure/reagent_dispensers/fueltank/huge/derelict,/obj/machinery/power/apc{dir = 1; name = "North APC"; pixel_y = 28},/obj/structure/cable/orange{dir = 4; icon_state = "0-1"},/turf/simulated/floor/plating/under,/area/samara/command/fo)
-"ER" = (/obj/structure/cable/orange{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/tiled/dark,/area/samara/command)
-"ES" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor/tiled/dark,/area/samara/command)
+"ER" = (/obj/structure/cable/orange{icon_state = "1-2"},/obj/structure/disposalpipe/segment,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor/tiled/dark,/area/samara/command/bridge)
+"ES" = (/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/tiled/dark,/area/samara/command/bridge)
 "ET" = (/turf/simulated/wall,/area/samara/command/meeting_room)
 "EU" = (/obj/effect/window_lwall_spawn/smartspawn,/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/plating,/area/samara/command/meeting_room)
 "EV" = (/obj/effect/window_lwall_spawn/smartspawn,/turf/simulated/floor/plating,/area/samara/command/meeting_room)
-"EW" = (/obj/structure/cable/orange{icon_state = "1-2"},/obj/structure/disposalpipe/segment,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor/tiled/dark,/area/samara/command)
-"EX" = (/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/tiled/dark,/area/samara/command)
+"EW" = (/obj/structure/cable/orange{icon_state = "1-8"},/obj/structure/cable/orange{icon_state = "2-8"},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/tiled/dark,/area/samara/command/bridge)
+"EX" = (/obj/machinery/light{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor/tiled/dark,/area/samara/command/bridge)
 "EY" = (/turf/simulated/wall,/area/samara/command/captain)
 "EZ" = (/obj/machinery/door/airlock/command{req_access = list(20)},/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/structure/cable/orange{icon_state = "1-2"},/obj/machinery/door/firedoor,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/wood,/area/samara/command/captain)
 "Fa" = (/turf/simulated/wall/r_wall,/area/samara/command/captain)
@@ -1616,8 +1616,8 @@
 "Fd" = (/obj/structure/cable/orange{icon_state = "1-4"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/unary/vent_pump/on,/turf/simulated/floor/tiled/dark/gray_perforated,/area/samara/command/fo)
 "Fe" = (/obj/structure/cable/orange{icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 10},/turf/simulated/floor/tiled/dark/gray_perforated,/area/samara/command/fo)
 "Ff" = (/obj/structure/cable/orange{icon_state = "4-8"},/obj/machinery/door/firedoor,/obj/machinery/door/airlock/maintenance_command{req_access = list(12)},/turf/simulated/floor/tiled/dark/gray_perforated,/area/samara/command/fo)
-"Fg" = (/obj/structure/cable/orange{icon_state = "1-8"},/obj/structure/cable/orange{icon_state = "2-8"},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/tiled/dark,/area/samara/command)
-"Fh" = (/obj/machinery/light{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor/tiled/dark,/area/samara/command)
+"Fg" = (/obj/structure/cable/orange{icon_state = "1-4"},/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 8},/turf/simulated/floor/tiled/dark,/area/samara/command/bridge)
+"Fh" = (/obj/structure/cable/orange{icon_state = "4-8"},/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 8},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor/tiled/dark,/area/samara/command/bridge)
 "Fi" = (/obj/machinery/photocopier,/obj/machinery/power/apc{dir = 1; name = "North APC"; pixel_y = 28},/obj/structure/cable/yellow{d2 = 4; icon_state = "0-4"},/obj/structure/cable/orange{dir = 1; icon_state = "0-1"},/turf/simulated/floor/tiled/steel,/area/samara/command/meeting_room)
 "Fj" = (/obj/structure/cable/yellow{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/tiled/steel,/area/samara/command/meeting_room)
 "Fk" = (/obj/machinery/hologram/holopad,/turf/simulated/floor/tiled/steel/gray_perforated,/area/samara/command/meeting_room)
@@ -1631,8 +1631,8 @@
 "Fs" = (/obj/structure/bed/padded,/obj/item/bedsheet/brown,/obj/structure/cable/green{d1 = 4; d2 = 8; icon_state = "4-8"},/turf/simulated/floor/plating/under,/area/samara/command/fo)
 "Ft" = (/obj/machinery/power/port_gen/pacman/diesel{anchored = 1},/obj/structure/cable/green{d2 = 8; icon_state = "0-8"},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 5},/turf/simulated/floor/plating/under,/area/samara/command/fo)
 "Fu" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 10},/turf/simulated/floor/tiled/dark/gray_perforated,/area/samara/command/fo)
-"Fv" = (/obj/structure/cable/orange{icon_state = "1-4"},/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 8},/turf/simulated/floor/tiled/dark,/area/samara/command)
-"Fw" = (/obj/structure/cable/orange{icon_state = "4-8"},/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 8},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor/tiled/dark,/area/samara/command)
+"Fv" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/tiled/dark,/area/samara/command/bridge)
+"Fw" = (/obj/structure/sign/department/conference_room{pixel_x = 27},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor/tiled/dark,/area/samara/command/bridge)
 "Fx" = (/obj/machinery/door/airlock/glass_command,/obj/structure/cable/orange{icon_state = "4-8"},/obj/machinery/door/firedoor,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor/tiled/steel,/area/samara/command/meeting_room)
 "Fy" = (/obj/structure/cable/orange{icon_state = "1-8"},/obj/structure/cable/orange{icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 10},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor/tiled/steel,/area/samara/command/meeting_room)
 "Fz" = (/obj/structure/cable/orange{icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor/carpet/bcarpet,/area/samara/command/meeting_room)
@@ -1644,14 +1644,14 @@
 "FF" = (/obj/machinery/door/airlock/command,/obj/machinery/door/firedoor,/turf/simulated/floor/wood,/area/samara/command/captain)
 "FG" = (/obj/machinery/light/small{dir = 4},/turf/simulated/floor/tiled/white/techfloor_grid,/area/samara/command/captain)
 "FH" = (/obj/machinery/door/airlock/maintenance_command{req_access = list(12)},/obj/machinery/door/firedoor,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/tiled/dark/gray_perforated,/area/samara/command/fo)
-"FI" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/tiled/dark,/area/samara/command)
-"FJ" = (/obj/structure/sign/department/conference_room{pixel_x = 27},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor/tiled/dark,/area/samara/command)
+"FI" = (/obj/machinery/light{dir = 4},/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/tiled/dark,/area/samara/command/bridge)
+"FJ" = (/obj/machinery/door/airlock/maintenance_command{req_access = list(12)},/obj/machinery/door/firedoor,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/turf/simulated/floor/tiled/techmaint_perforated,/area/samara/command/bridge)
 "FK" = (/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 1},/turf/simulated/floor/tiled/steel,/area/samara/command/meeting_room)
 "FL" = (/obj/structure/bed/chair/office/dark,/turf/simulated/floor/carpet/bcarpet,/area/samara/command/meeting_room)
 "FM" = (/obj/structure/table/reinforced,/obj/spawner/toy/figure,/turf/simulated/floor/carpet/bcarpet,/area/samara/command/meeting_room)
 "FN" = (/obj/structure/bed/chair/office/dark{dir = 8},/turf/simulated/floor/carpet/bcarpet,/area/samara/command/meeting_room)
 "FO" = (/obj/machinery/light_switch{pixel_x = 26},/obj/structure/cable/orange{icon_state = "1-2"},/obj/machinery/atmospherics/unary/vent_pump/on{dir = 1},/turf/simulated/floor/tiled/steel,/area/samara/command/meeting_room)
-"FP" = (/obj/machinery/light{dir = 4},/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/tiled/dark,/area/samara/command)
+"FP" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 4},/turf/simulated/floor/tiled/dark,/area/samara/command/bridge)
 "FQ" = (/obj/machinery/light{dir = 8},/turf/simulated/floor/wood,/area/samara/command/captain)
 "FR" = (/obj/landmark/join/start/captain,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/carpet,/area/samara/command/captain)
 "FS" = (/turf/simulated/floor/wood,/area/samara/command/captain)
@@ -1661,9 +1661,9 @@
 "FW" = (/obj/structure/table/rack,/obj/spawner/pack/tech_loot/low_chance,/obj/spawner/tool_upgrade/low_chance,/turf/simulated/floor/tiled/techmaint,/area/samara/maintenance/section1deck1)
 "FX" = (/obj/structure/catwalk,/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 8},/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 8},/turf/simulated/floor/plating/under,/area/samara/maintenance/section1deck1)
 "FY" = (/obj/structure/catwalk,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/turf/simulated/floor/plating/under,/area/samara/maintenance/section1deck1)
-"FZ" = (/obj/machinery/door/airlock/maintenance_command{req_access = list(12)},/obj/machinery/door/firedoor,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/turf/simulated/floor/tiled/techmaint_perforated,/area/samara/command)
-"Ga" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 4},/turf/simulated/floor/tiled/dark,/area/samara/command)
-"Gb" = (/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 4},/turf/simulated/floor/tiled/dark,/area/samara/command)
+"FZ" = (/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 4},/turf/simulated/floor/tiled/dark,/area/samara/command/bridge)
+"Ga" = (/obj/machinery/light{dir = 8},/obj/machinery/atmospherics/unary/vent_pump/on{dir = 1},/turf/simulated/floor/tiled/dark,/area/samara/command/bridge)
+"Gb" = (/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 1},/turf/simulated/floor/tiled/dark,/area/samara/command/bridge)
 "Gc" = (/obj/machinery/alarm{dir = 4; pixel_x = -22},/turf/simulated/floor/tiled/steel/gray_perforated,/area/samara/command/meeting_room)
 "Gd" = (/obj/structure/bed/chair/office/light{dir = 4},/turf/simulated/floor/carpet/bcarpet,/area/samara/command/meeting_room)
 "Ge" = (/obj/structure/table/reinforced,/turf/simulated/floor/carpet/bcarpet,/area/samara/command/meeting_room)
@@ -1677,13 +1677,13 @@
 "Gm" = (/obj/structure/catwalk,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/plating/under,/area/samara/maintenance/section1deck1)
 "Gn" = (/obj/spawner/scrap,/obj/structure/railing{dir = 8},/obj/structure/railing{dir = 1},/turf/simulated/floor/plating/under,/area/samara/maintenance/section1deck1)
 "Go" = (/obj/structure/closet/secure_closet/reinforced/engineering_chief,/obj/machinery/alarm{pixel_y = 26},/obj/machinery/light_switch{pixel_x = -27},/turf/simulated/floor/tiled/steel/brown_platform,/area/space)
-"Gp" = (/obj/machinery/light{dir = 8},/obj/machinery/atmospherics/unary/vent_pump/on{dir = 1},/turf/simulated/floor/tiled/dark,/area/samara/command)
-"Gq" = (/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 1},/turf/simulated/floor/tiled/dark,/area/samara/command)
+"Gp" = (/obj/structure/sign/department/conference_room{pixel_x = -27},/obj/structure/cable/orange{icon_state = "1-2"},/obj/structure/disposalpipe/segment,/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 1},/turf/simulated/floor/tiled/dark,/area/samara/command/bridge)
+"Gq" = (/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/atmospherics/unary/vent_pump/on{dir = 1},/turf/simulated/floor/tiled/dark,/area/samara/command/bridge)
 "Gr" = (/turf/simulated/floor/tiled/steel,/area/samara/command/meeting_room)
 "Gs" = (/obj/structure/table/reinforced,/obj/item/paper_bin,/obj/item/pen,/turf/simulated/floor/carpet/bcarpet,/area/samara/command/meeting_room)
 "Gt" = (/obj/structure/cable/orange{icon_state = "1-2"},/turf/simulated/floor/tiled/steel,/area/samara/command/meeting_room)
-"Gu" = (/obj/structure/sign/department/conference_room{pixel_x = -27},/obj/structure/cable/orange{icon_state = "1-2"},/obj/structure/disposalpipe/segment,/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 1},/turf/simulated/floor/tiled/dark,/area/samara/command)
-"Gv" = (/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/atmospherics/unary/vent_pump/on{dir = 1},/turf/simulated/floor/tiled/dark,/area/samara/command)
+"Gu" = (/obj/structure/cable/orange{icon_state = "1-8"},/obj/structure/disposalpipe/segment,/turf/simulated/floor/tiled/dark,/area/samara/command/bridge)
+"Gv" = (/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/dark,/area/samara/command/bridge)
 "Gw" = (/obj/machinery/door/airlock/maintenance_command,/obj/machinery/door/firedoor,/turf/simulated/floor/wood,/area/samara/command/captain)
 "Gx" = (/obj/machinery/door/airlock/external{frequency = 1379; icon_state = "door_locked"; id_tag = "third_sec_2_airlock_door_int"; locked = 1; name = "Internal First Deck Airlock - 2"},/obj/machinery/atmospherics/pipe/simple/hidden{dir = 1},/turf/simulated/floor/tiled/steel/cargo,/area/samara/maintenance/section1deck1)
 "Gy" = (/turf/simulated/wall,/area/samara/maintenance/section1deck1)
@@ -1693,8 +1693,8 @@
 "GC" = (/obj/structure/bed/chair/office/dark{dir = 1},/turf/simulated/floor/carpet/bcarpet,/area/samara/command/meeting_room)
 "GD" = (/obj/structure/cable/orange{icon_state = "1-4"},/turf/simulated/floor/tiled/steel,/area/samara/command/meeting_room)
 "GE" = (/obj/machinery/door/airlock/glass_command,/obj/structure/cable/orange{icon_state = "4-8"},/obj/machinery/door/firedoor,/turf/simulated/floor/tiled/steel,/area/samara/command/meeting_room)
-"GF" = (/obj/structure/cable/orange{icon_state = "1-8"},/obj/structure/disposalpipe/segment,/turf/simulated/floor/tiled/dark,/area/samara/command)
-"GG" = (/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/dark,/area/samara/command)
+"GF" = (/obj/machinery/light{dir = 8},/obj/structure/disposalpipe/segment,/turf/simulated/floor/tiled/dark,/area/samara/command/bridge)
+"GG" = (/obj/machinery/door/airlock/multi_tile/glass,/obj/machinery/door/firedoor/multi_tile,/turf/simulated/floor/tiled/dark,/area/samara/command/bridge)
 "GH" = (/obj/structure/table/reinforced,/obj/item/storage/belt/utility/full,/turf/simulated/floor/tiled/dark/gray_perforated,/area/samara/command/captain)
 "GI" = (/turf/simulated/floor/tiled/dark/gray_perforated,/area/samara/command/captain)
 "GJ" = (/obj/machinery/access_button{command = "cycle_exterior"; frequency = 1379; master_tag = "third_sec_2_access_console"; name = "First Deck External Access Button - 2"; pixel_x = 25; pixel_y = 25},/turf/simulated/floor/hull{flooring_override = "hullcenter18"; icon_state = "hullcenter18"},/area/space)
@@ -1705,15 +1705,13 @@
 "GO" = (/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 1},/turf/simulated/floor/tiled/steel/brown_perforated,/area/space)
 "GP" = (/turf/simulated/floor/tiled/steel/gray_perforated,/area/samara/command/meeting_room)
 "GQ" = (/obj/machinery/papershredder,/turf/simulated/floor/tiled/steel,/area/samara/command/meeting_room)
-"GR" = (/obj/machinery/light{dir = 8},/obj/structure/disposalpipe/segment,/turf/simulated/floor/tiled/dark,/area/samara/command)
+"GR" = (/obj/machinery/door/airlock/multi_tile/glass,/obj/structure/disposalpipe/segment,/obj/machinery/door/firedoor/multi_tile,/turf/simulated/floor/tiled/dark,/area/samara/command/bridge)
 "GS" = (/obj/structure/cryofeed{dir = 4},/turf/simulated/floor/tiled/dark/gray_perforated,/area/samara/command/captain)
 "GT" = (/obj/structure/railing{dir = 4},/obj/structure/railing{dir = 1},/turf/space,/area/space)
 "GU" = (/obj/machinery/light/small,/obj/machinery/cryopod{dir = 4; icon_state = "cryopod_0"},/turf/simulated/floor/tiled/dark/gray_perforated,/area/samara/command/captain)
 "GV" = (/obj/machinery/door/airlock/external{frequency = 1379; icon_state = "door_locked"; id_tag = "third_sec_2_airlock_door_ext"; locked = 1; name = "External First Deck Airlock - 2"},/obj/machinery/shield_diffuser,/turf/simulated/floor/tiled/steel/cargo,/area/samara/maintenance/section1deck1)
 "GW" = (/turf/simulated/wall/r_wall,/area/samara/hallway/section1)
-"GX" = (/obj/machinery/door/airlock/multi_tile/glass,/obj/machinery/door/firedoor/multi_tile,/turf/simulated/floor/tiled/dark,/area/samara/command)
 "GY" = (/turf/simulated/wall/r_wall,/area/samara/command/meeting_room)
-"GZ" = (/obj/machinery/door/airlock/multi_tile/glass,/obj/structure/disposalpipe/segment,/obj/machinery/door/firedoor/multi_tile,/turf/simulated/floor/tiled/dark,/area/samara/command)
 "Ha" = (/obj/structure/lattice,/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 6},/turf/space,/area/space)
 "Hb" = (/obj/spawner/junk/low_chance,/obj/structure/railing{dir = 4},/turf/simulated/floor/plating/under,/area/samara/maintenance/section1deck1)
 "Hc" = (/obj/machinery/atmospherics/unary/vent_pump/on{dir = 1},/turf/simulated/floor/tiled/steel/brown_perforated,/area/space)
@@ -2450,7 +2448,7 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-RWaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+RWEnaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 "}
 
 (1,1,2) = {"
@@ -2529,18 +2527,18 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaUANAzYUAJkzYxqxqxq
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaUANAzYUAJkzYxqxqxqxqxrDmDtDPDSDxDxDyDxDTDUDVDtDmxrxqxqxqxqUAMwzYxqxqxqxqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaUANAzYUAJkzYxqxqxqxqxrDmDWDXDYDxDxDxDxDxDZEaEbDmxrxqxqxqxqUAMwzYxqxqxqxqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaUANAzYUAJkzYxqxqxqxqxrDlDMEcEdDxEeEfEgDxEiEjEkDlWtWtxrxrxrxrUsxqxqxqxqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaUAxTzYUAxTzYxqxqxqxqxrDlDlElDlDlDlDlDlDlDlEmDlDlEnEnEnEnEnEnUsxqvtxmaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxqxqxqxqxrxrxrxrxrxrxrEnEoEpEqErEsEtEtEuEtEvEwEwExEyEzEzEAEnUsapvtxmaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxqxqxqxqxrEBEBEBEBEBEBEnECEDEEEFEGEHEHEHEIEJEKEHEHELEtEtEMEnUsOlvtxmaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxqxqxqxqxrEBENEOEPEQEBEtERESETETEUEVEVETETEWEXEYEYEZEYEYEYFaUsOlvtxmaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxqxqxqxqxrEBFbFcFdFeFfEqFgFhETFiFjFkFlFmETEWEXEYFnFoFpEYFqFaUsOlvtxmaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxqxqxqxqxqxrEBFrFsFtFuEBEtFvFwFxFyFzFAFzFBETEWEXEYFCFDFEFFFGFaUsapvtxmaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxqxqxqxqxqxqxrEBEBEBEBFHEBEnFIFJETFKFLFMFNFOETEWFPEYFQFRFSEYFTFaUsOlvtxmaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxqxqxqxqxqxqxrzRFUFVFWFXFYFZGaGbETGcGdGeGfGgETEWEXEYGhGiGjFaFaFaUsOlxqxqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxqxqxqxqxqxqxrzRGkGlGlGmGnEnGpGqETGrGdGsFNGtETGuGvEYEYGwEYFaxrxrUsOlxqxqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxqxqxqxqxqxqxrzRGxGyGyGmGzEnEtEtETGAGBGCGBGDGEGFGGEYGHGIGIFaxrxrUsapxqxqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxqxqxqxqxqxqxrzRGKGLGyGmGMEnEtEtETGNGrGPGrGQETGRGGEYGSGUGIFaxrxrUsOlxqxqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxqxqxqxqxqxqxrzRGVzRGyGmGWEnGXEtGYGYEVEVEVGYGYGZGGFaFaFaFaFakNkNUsOlxqxqxqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaUAxTzYUAxTzYxqxqxqxqxrDlDlElDlDlDlDlDlDlDlEmDlDlDlDlDlDlDlDlUsxqvtxmaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxqxqxqxqxrxrxrxrxrxrxrDlEoEpEqErEsDoDoEtDoEuEvEvEwExEyEyEzDlUsapvtxmaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxqxqxqxqxrEBEBEBEBEBEBDlEAECEDEEEFEGEGEGEHEIEJEGEGEKDoDoELDlUsOlvtxmaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxqxqxqxqxrEBENEOEPEQEBDoEMDPETETEUEVEVETETERESEYEYEZEYEYEYFaUsOlvtxmaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxqxqxqxqxrEBFbFcFdFeFfEqEWEXETFiFjFkFlFmETERESEYFnFoFpEYFqFaUsOlvtxmaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxqxqxqxqxqxrEBFrFsFtFuEBDoFgFhFxFyFzFAFzFBETERESEYFCFDFEFFFGFaUsapvtxmaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxqxqxqxqxqxqxrEBEBEBEBFHEBDlFvFwETFKFLFMFNFOETERFIEYFQFRFSEYFTFaUsOlvtxmaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxqxqxqxqxqxqxrzRFUFVFWFXFYFJFPFZETGcGdGeGfGgETERESEYGhGiGjFaFaFaUsOlxqxqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxqxqxqxqxqxqxrzRGkGlGlGmGnDlGaGbETGrGdGsFNGtETGpGqEYEYGwEYFaxrxrUsOlxqxqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxqxqxqxqxqxqxrzRGxGyGyGmGzDlDoDoETGAGBGCGBGDGEGuGvEYGHGIGIFaxrxrUsapxqxqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxqxqxqxqxqxqxrzRGKGLGyGmGMDlDoDoETGNGrGPGrGQETGFGvEYGSGUGIFaxrxrUsOlxqxqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxqxqxqxqxqxqxrzRGVzRGyGmGWDlGGDoGYGYEVEVEVGYGYGRGvFaFaFaFaFakNkNUsOlxqxqxqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxqxqxqxqxqxqxrxrGJzRHbGmGWHdHeHfHgHeHeHeHeHhHiHjHkHlGWloHmHnHokNUsOlxqxqxqxqxqxqxqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaRRaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxqxqxqxqxqxqxqxqxrzRHpGmGWHeHqHrHrHrHrHrHrHrHrHsHtHuHvHwHxHyHzkNUsapapxqxqxqxqxqxqxqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxqxqxqxqxqxqxqxqxrzRHAGmGWHBHCHDHEHEHFHGHHHEHEHIHJHKGWHLHMHyHNkNKuMNOlxqxqxqxqxqxqxqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa

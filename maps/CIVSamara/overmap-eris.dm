@@ -59,3 +59,25 @@
 	name = "shuttle control console"
 	shuttle_tag = "Hulk"
 	req_access = list()
+
+/obj/effect/overmap/ship/samara
+	name = "CIV Samara"
+	fore_dir = NORTH
+	vessel_mass = 300
+	default_delay = 20 SECONDS
+	speed_mod = 5 SECONDS
+	base = 1
+
+	name_stages = list("CIV Samara", "unknown vessel", "unknown spatial phenomenon")
+	icon_stages = list("eris", "ship", "poi")
+
+	start_x = 9
+	start_y = 10
+
+	restricted_waypoints = list(
+		"Vasiliy Dokuchaev" = list("nav_dock_expl"), 	//can't have random shuttles popping inside the ship
+	)
+
+/obj/effect/overmap/ship/samara/Process()
+	overmap_event_handler.scan_loc(src, loc, can_scan()) // Eris uses its sensors to scan nearby events
+	.=..()

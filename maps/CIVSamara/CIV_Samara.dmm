@@ -98,7 +98,7 @@
 "bT" = (/obj/structure/cable/yellow{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor/tiled/dark,/area/samara/quartermaster/office)
 "bU" = (/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor/tiled/dark,/area/samara/quartermaster/office)
 "bV" = (/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/landmark/join/start/merchant,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor/tiled/dark,/area/samara/quartermaster/office)
-"bW" = (/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/landmark/join/start/cargo_tech,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor/tiled/dark,/area/samara/quartermaster/office)
+"bW" = (/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor/tiled/dark,/area/samara/quartermaster/office)
 "bX" = (/obj/structure/disposalpipe/segment{dir = 4; icon_state = "pipe-c"},/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor/tiled/dark,/area/samara/quartermaster/office)
 "bY" = (/obj/machinery/door/airlock/mining{req_access = list(50)},/obj/machinery/door/firedoor,/obj/structure/disposalpipe/segment{dir = 4},/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor/tiled/steel,/area/samara/quartermaster/hangarsupply)
 "bZ" = (/turf/simulated/shuttle/wall/science{icon_state = "5,16"},/area/shuttle/research/station)
@@ -279,12 +279,12 @@
 "fs" = (/obj/machinery/hologram/holopad,/obj/structure/disposalpipe/segment{dir = 2; icon_state = "pipe-c"},/turf/simulated/floor/tiled/steel,/area/samara/hallway/section2)
 "ft" = (/turf/simulated/wall/r_wall,/area/samara/maintenance/section2deck2)
 "fu" = (/obj/machinery/conveyor/southwest/ccw{id = "miner"},/obj/landmark/machinery/output,/turf/simulated/floor/tiled/dark/techfloor_grid,/area/samara/quartermaster/storage)
-"fv" = (/obj/landmark/join/start/mining,/turf/simulated/shuttle/floor/science{icon_state = "6,9"},/area/shuttle/research/station)
+"fv" = (/turf/simulated/shuttle/floor/science{icon_state = "6,9"},/area/shuttle/research/station)
 "fw" = (/turf/simulated/shuttle/wall/science{icon_state = "7,9"},/area/shuttle/research/station)
 "fx" = (/obj/machinery/mineral/unloading_machine,/turf/simulated/floor/tiled/dark/techfloor_grid,/area/samara/quartermaster/storage)
 "fy" = (/obj/landmark/machinery/input,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/tiled/dark/techfloor_grid,/area/samara/quartermaster/storage)
 "fz" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/light/small{dir = 8},/turf/simulated/shuttle/floor/science{icon_state = "8,9"},/area/shuttle/research/station)
-"fA" = (/obj/landmark/join/start/artist,/turf/simulated/floor/tiled/dark/gray_perforated,/area/samara/quartermaster/storage)
+"fA" = (/obj/structure/window/reinforced{dir = 1},/obj/structure/table/rack/shelf,/obj/item/storage/pouch/ammo,/obj/item/storage/pouch/ammo,/obj/item/grenade/sonic,/obj/spawner/contraband/low_chance,/turf/simulated/floor/tiled/dark/gray_perforated,/area/samara/security/armoury)
 "fB" = (/obj/structure/cable/yellow{d1 = 2; d2 = 4; icon_state = "2-4"},/turf/simulated/floor/plating/under,/area/samara/quartermaster/storage)
 "fC" = (/obj/structure/cable/yellow{d1 = 1; d2 = 8; icon_state = "1-8"},/turf/simulated/floor/plating/under,/area/samara/quartermaster/storage)
 "fD" = (/obj/machinery/light/small{dir = 4; pixel_y = 8},/turf/simulated/floor/tiled/dark/techfloor_grid,/area/samara/quartermaster/storage)
@@ -306,7 +306,7 @@
 "fT" = (/obj/structure/shuttle_part/science{icon_state = "3,8"},/turf/space,/area/shuttle/research/station)
 "fU" = (/turf/simulated/shuttle/wall/science{icon_state = "4,8"},/area/shuttle/research/station)
 "fV" = (/obj/structure/closet/secure_closet/personal/miner,/turf/simulated/shuttle/floor/science{icon_state = "5,8"},/area/shuttle/research/station)
-"fW" = (/obj/machinery/atmospherics/unary/vent_pump/on{dir = 4},/obj/landmark/join/start/mining,/turf/simulated/shuttle/floor/science{icon_state = "6,8"},/area/shuttle/research/station)
+"fW" = (/obj/machinery/atmospherics/unary/vent_pump/on{dir = 4},/turf/simulated/shuttle/floor/science{icon_state = "6,8"},/area/shuttle/research/station)
 "fX" = (/obj/spawner/junk/nondense,/turf/simulated/floor/plating/under,/area/samara/maintenance/section2deck2)
 "fY" = (/obj/item/trash/broken_robot_part,/turf/simulated/floor/tiled/techmaint_perforated,/area/samara/maintenance/section2deck2)
 "fZ" = (/obj/structure/table/steel_reinforced,/turf/simulated/floor/tiled/dark/gray_perforated,/area/samara/maintenance/section2deck2)
@@ -360,7 +360,7 @@
 "gV" = (/turf/simulated/shuttle/wall/science{icon_state = "4,7"},/area/shuttle/research/station)
 "gW" = (/obj/structure/closet/secure_closet/personal/miner,/turf/simulated/shuttle/floor/science{icon_state = "5,7"},/area/shuttle/research/station)
 "gX" = (/turf/simulated/wall,/area/samara/medical/medbay)
-"gY" = (/obj/machinery/light/small,/obj/landmark/join/start/mining,/turf/simulated/shuttle/floor/science{icon_state = "6,7"},/area/shuttle/research/station)
+"gY" = (/obj/machinery/light/small,/turf/simulated/shuttle/floor/science{icon_state = "6,7"},/area/shuttle/research/station)
 "gZ" = (/turf/simulated/shuttle/wall/science{icon_state = "7,7"},/area/shuttle/research/station)
 "ha" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/shuttle/floor/science{icon_state = "8,7"},/area/shuttle/research/station)
 "hb" = (/turf/simulated/shuttle/wall/science{icon_state = "9,7"},/area/shuttle/research/station)
@@ -503,7 +503,6 @@
 "jI" = (/obj/structure/shuttle_part/science{icon_state = "1,3"},/turf/space,/area/shuttle/research/station)
 "jJ" = (/obj/structure/medical_stand,/turf/simulated/floor/tiled/white,/area/samara/medical/medbay)
 "jK" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/tiled/white/techfloor_grid,/area/samara/medical/medbay)
-"jL" = (/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/landmark/join/start/cmo,/turf/simulated/floor/tiled/white,/area/samara/medical/medbay)
 "jM" = (/obj/machinery/light{dir = 4},/obj/machinery/chemical_dispenser,/turf/simulated/floor/tiled/white/brown_perforated,/area/samara/medical/medbay)
 "jN" = (/turf/simulated/wall/r_wall,/area/samara/medical/medbay)
 "jO" = (/obj/machinery/disposal,/obj/structure/disposalpipe/trunk,/turf/simulated/floor/tiled/white/brown_perforated,/area/samara/medical/virology)
@@ -721,7 +720,7 @@
 "nS" = (/obj/structure/table/reinforced,/turf/simulated/floor/tiled/techmaint_perforated,/area/samara/maintenance/section2deck2)
 "nT" = (/obj/machinery/airlock_sensor{id_tag = "third_sec_1_airlock_sensor"; name = "Second Deck Airlock Sensor - 1"; pixel_x = 25; pixel_y = -10},/obj/machinery/embedded_controller/radio/airlock/airlock_controller{id_tag = "third_sec_1_access_console"; name = "Second Deck Airlock Console - 1"; pixel_x = 25; tag_airpump = "third_sec_1_airlock_pump"; tag_chamber_sensor = "third_sec_1_airlock_sensor"; tag_exterior_door = "third_sec_1_airlock_door_ext"; tag_interior_door = "third_sec_1_airlock_door_int"},/obj/machinery/atmospherics/unary/vent_pump/high_volume{dir = 1; frequency = 1379; id_tag = "third_sec_1_airlock_pump"; name = "Second Deck Airlock Pump - 1"},/turf/simulated/floor/tiled/steel,/area/samara/maintenance/section1deck2)
 "nU" = (/obj/machinery/door/airlock/command{id_tag = "cedoor"; name = "Technomancer Exultant"; req_access = list(56)},/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/tiled/steel/cargo,/area/space)
-"nV" = (/obj/machinery/alarm{dir = 4; pixel_x = -22},/obj/landmark/join/start/clubworker,/turf/simulated/floor/tiled/cafe,/area/samara/crew_quarters/kitchen)
+"nV" = (/obj/machinery/alarm{dir = 4; pixel_x = -22},/turf/simulated/floor/tiled/cafe,/area/samara/crew_quarters/kitchen)
 "nW" = (/obj/machinery/atmospherics/unary/vent_pump/on{dir = 4},/turf/simulated/floor/tiled/cafe,/area/samara/crew_quarters/kitchen)
 "nX" = (/obj/structure/table/marble,/obj/machinery/chemical_dispenser/soda,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 6},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 10},/turf/simulated/floor/tiled/cafe,/area/samara/crew_quarters/kitchen)
 "nY" = (/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 8},/turf/simulated/floor/tiled/cafe,/area/samara/crew_quarters/kitchen)
@@ -766,7 +765,7 @@
 "oL" = (/obj/machinery/light{dir = 4},/turf/simulated/floor/plating/under,/area/samara/crew_quarters)
 "oM" = (/obj/structure/closet,/turf/simulated/floor/plating/under,/area/samara/maintenance/section2deck2)
 "oN" = (/obj/structure/table/marble,/obj/machinery/reagentgrinder/portable{pixel_y = 5},/obj/machinery/light{dir = 8},/turf/simulated/floor/tiled/cafe,/area/samara/crew_quarters/kitchen)
-"oO" = (/obj/structure/cable/yellow{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/landmark/join/start/clubworker,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/tiled/cafe,/area/samara/crew_quarters/kitchen)
+"oO" = (/obj/structure/cable/yellow{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/tiled/cafe,/area/samara/crew_quarters/kitchen)
 "oP" = (/obj/structure/shuttle_part/science{icon_state = "11,0"},/turf/space,/area/shuttle/research/station)
 "oQ" = (/obj/structure/shuttle_part/science{icon_state = "12,0"},/turf/space,/area/shuttle/research/station)
 "oR" = (/obj/structure/shuttle_part/science{icon_state = "13,0"},/turf/space,/area/shuttle/research/station)
@@ -1876,7 +1875,7 @@
 "Kd" = (/obj/machinery/door/airlock/glass_security{req_access = list(1)},/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/disposalpipe/segment{dir = 4},/obj/machinery/door/firedoor,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor/tiled/dark,/area/samara/security/barracks)
 "Ke" = (/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/cable/yellow{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/structure/disposalpipe/segment{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor/wood,/area/samara/security/exerooms)
 "Kf" = (/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/disposalpipe/segment{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 9},/turf/simulated/floor/wood,/area/samara/security/exerooms)
-"Kg" = (/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/disposalpipe/segment{dir = 8; icon_state = "pipe-c"},/obj/landmark/join/start/ihc,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/turf/simulated/floor/wood,/area/samara/security/exerooms)
+"Kg" = (/obj/structure/cable/yellow{d1 = 4; d2 = 8; icon_state = "4-8"},/obj/structure/disposalpipe/segment{dir = 8; icon_state = "pipe-c"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/turf/simulated/floor/wood,/area/samara/security/exerooms)
 "Kh" = (/obj/structure/cable/yellow{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 9},/turf/simulated/floor/wood,/area/samara/security/exerooms)
 "Ki" = (/obj/structure/bed,/turf/simulated/floor/tiled/steel,/area/samara/security/brig)
 "Kj" = (/obj/machinery/light/small,/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 4},/turf/simulated/floor/plating/under,/area/samara/security/brig)
@@ -1947,7 +1946,7 @@
 "Lw" = (/obj/structure/bed/chair/office/dark{dir = 1},/obj/machinery/alarm{dir = 4; pixel_x = -22},/obj/landmark/join/start/ihoper,/turf/simulated/floor/wood,/area/samara/security/exerooms)
 "Lx" = (/obj/structure/bed/chair/office/dark{dir = 1},/turf/simulated/floor/wood,/area/samara/security/exerooms)
 "Ly" = (/obj/machinery/hologram/holopad,/turf/simulated/floor/wood,/area/samara/security/exerooms)
-"Lz" = (/obj/structure/bed/chair/office/dark{dir = 8},/obj/landmark/join/start/gunserg,/turf/simulated/floor/wood,/area/samara/security/exerooms)
+"Lz" = (/obj/structure/bed/chair/office/dark{dir = 8},/turf/simulated/floor/wood,/area/samara/security/exerooms)
 "LA" = (/obj/structure/bed/chair/office/dark{dir = 1},/obj/landmark/join/start/ihoper,/turf/simulated/floor/wood,/area/samara/security/exerooms)
 "LB" = (/obj/structure/lattice,/obj/structure/cable{d1 = 32; icon_state = "32-1"},/turf/simulated/open,/area/samara/engineering/engine_smes)
 "LC" = (/obj/structure/disposalpipe/segment,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/plating/under,/area/samara/maintenance/section1deck1)
@@ -2083,7 +2082,6 @@
 "Oc" = (/obj/structure/mirror{pixel_y = 27},/turf/simulated/floor/tiled/white/brown_perforated,/area/samara/security/prison)
 "Od" = (/obj/structure/extinguisher_cabinet{pixel_x = -26},/turf/simulated/floor/tiled/dark,/area/samara/security/main)
 "Oe" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/tiled/dark,/area/samara/security/main)
-"Of" = (/obj/structure/window/reinforced{dir = 1},/obj/structure/table/rack/shelf,/obj/item/storage/pouch/ammo,/obj/item/storage/pouch/ammo,/obj/item/grenade/sonic,/turf/simulated/floor/tiled/dark/gray_perforated,/area/samara/security/armoury)
 "Og" = (/obj/structure/window/reinforced{dir = 1},/obj/structure/table/rack/shelf,/obj/item/gun/projectile/shotgun/slidebarrel,/obj/item/clothing/glasses/powered/night,/obj/item/clothing/glasses/powered/night,/obj/item/ammo_magazine/m12/pellet,/obj/item/ammo_casing/shotgun/pellet/prespawned,/obj/item/ammo_casing/shotgun/pellet/prespawned,/obj/item/ammo_casing/shotgun/prespawned,/obj/item/ammo_casing/shotgun/prespawned,/obj/item/ammo_casing/shotgun/prespawned,/turf/simulated/floor/tiled/dark/gray_perforated,/area/samara/security/armoury)
 "Oh" = (/obj/machinery/atmospherics/unary/vent_pump/on{dir = 1},/turf/simulated/floor/tiled/dark,/area/samara/security/armoury)
 "Oi" = (/obj/structure/window/reinforced{dir = 1},/obj/structure/table/rack/shelf,/obj/item/grenade/flashbang,/obj/item/grenade/flashbang,/obj/item/grenade/chem_grenade/teargas,/obj/item/grenade/chem_grenade/teargas,/obj/item/grenade/chem_grenade/teargas,/obj/item/ammo_kit,/turf/simulated/floor/tiled/dark/gray_perforated,/area/samara/security/armoury)
@@ -2362,13 +2360,13 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaidmbbbbdndo
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaidNdOdPdQdRcmacdScracdTdWdZegehdDeidEejaYekdKdLendLcheoaYaawKaawKaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaiaiaiaiaiewckbbeyezeAeBeCeDeEeFeGeHeIeJdDGZdEeKaYeLeMdLeNdLchaYaYwKwKwKwKwKwKaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaiaiaieOePeQeReSeTeUeVeZacfgfnacfpfqfrfsdDdDGZdEdHaYaYaYaYaYaYaYaYaYftftftwKsXsZtbthtjtktmtptqtraaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaifufxfycjaibEfAfBfCcVfDacfGfKacdEdEfLfMfNdEdEdEdHfOfXfYfOfOfZgagbgcgdgeftgftOtPtTtUtTtTtTtVtWtXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaifufxfycjaibEiSfBfCcVfDacfGfKacdEdEfLfMfNdEdEdEdHfOfXfYfOfOfZgagbgcgdgeftgftOtPtTtUtTtTtTtVtWtXaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaigggjglgoaicjgpgqayglgracacacacgsdEgtgugvgzgAgAgBgCgCgDgDgEgFgGgHgIgIgdgJgMutuuuuuuuuuuuuuvuwuxaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaigNgjglcjaiaiaiaiaigPaiaigQgRgQgsgsgSfMgUgXgXgXhjgXgXgXgXgXgXgbhlfththwftgfuOvbvhvivhvhvhtVvkvqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaihAhChDhEaihFhGhHhIhJhKgQhLhLhLgQhKhMhNhOgXhPhShVhXhZiaibicgXgcidigiigbftwKvOvPvQvSvUvWvYwewowpaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaiijgjilinaiiohKhKhKhKhKgQipirisgQitdWdTdDiuiyiAiBiCiHiaiKiLgXgciMgDgGiQftftwKwKwKwKwKaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaiiRgjiScjaiiohKiUiXiYhKiZgQjagQgQhKjbjcjejfjkjojpjqjriaiKjsgXjtjtjtjtiMjuftaawKaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaijwjxiSfDaiiohKjyjzjAhKjBjCgQjCjDhKjEjFjGgXjHjJjKjLjMjNjNjNjNjOjPjQjtjtjRjSaawKaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaijwjxiSfDaiiohKjyjzjAhKjBjCgQjCjDhKjEjFjGgXjHjJjKkgjMjNjNjNjNjOjPjQjtjtjRjSaawKaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaijTjVcjxJaiiohKjWjzjWhKjXjYjZjYjYkakbdTkcgXkdkekfkgkhjNkikjjNklkmknkpjtkqftaawKaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaiaiaiaiaiaiiohKkrkskthKjCjCgQjCjChKkxdTkyiKkzkekAkBkCkEkGkHkCkIkJkKkMjtkqftwKwKwKaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaawKkNkNkNkOOykPhKkQkRjWhKkTgQgQgQkVhKkWkXkYkZlalblcldlelflelglhlilklllmjtlnftaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
@@ -2567,7 +2565,7 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaafFaazRMXMY
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaazRNqGyNrMmNsNtNuNuNuNvNwNwNwNxMmMbNyNzNBMSNCNDMSxrxrxrxrxqxqaavtxmaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaazRNEGyNrMmNFNFNuNuNuNgNwNwNwNGMmKwNHMSMSMSNINJMSxqxqxqxqxqxqwKvtxmaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaazRzRGyNKMmNLNMNuNNNOMmMmMmNPMmMmNQNRMSNSNTNUNVMSxqxqxqxqxqwKwKvtxmaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaazRNWNXMmNYNZNuNuNuOaMmObNwOcMmOdOeMSOfOgOhOiMSxqvtvtvtvtvtvtvtxmaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaazRNWNXMmNYNZNuNuNuOaMmObNwOcMmOdOeMSfAOgOhOiMSxqvtvtvtvtvtvtvtxmaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaazRzROjMmOkOkNuNuNuOaMmOmOnOoMmOpNHMSOqOrOrOsMSCzfFfFfFfFfFfFfFaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaxqzROtMmMmOuOvOwNuOaMmOxRTMAMmOzNHMSOAOBOCMSMSxqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaazRNKODMmMmOEMmMmMmMmMmMmMmMmJhOFMSMSMSMSMSxrvtxmaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa

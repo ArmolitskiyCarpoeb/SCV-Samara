@@ -67,7 +67,7 @@
 	desc = "You are a descendant of a long-lasting family, being part of a lineage of high status that can be traced back to the early civilization of your domain. \
 			What legacy will you build? \
 			Start with an heirloom weapon, higher chance to be on contractor contracts and removed sanity cap. Stay clear of filth and danger."
-			
+
 	perks = list(PERK_NOBLE)
 
 /datum/category_item/setup_option/background/fate/rat
@@ -105,6 +105,6 @@
 			Would you still choose to be part of this journey if you knew what it meant? Will you leave a mark or be forgotten forever? \
 			You cannot play command roles. Additionally, you have the ability to have a name without a last name and have an increased sanity pool."
 
-	restricted_jobs = list(/datum/job/captain, /datum/job/hop, /datum/job/chaplain, /datum/job/merchant, /datum/job/cmo, /datum/job/rd, /datum/job/ihc)
+	restricted_jobs = list(/datum/job/captain, /datum/job/hop, /datum/job/chaplain, /datum/job/merchant)
 	restricted_depts = IRONHAMMER | MEDICAL | SCIENCE
 	perks = list(PERK_LOWBORN)

@@ -1,6 +1,6 @@
 //Cargo
 /datum/job/merchant
-	title = "Guild Merchant"
+	title = "Quartermaster"
 	flag = MERCHANT
 	department = DEPARTMENT_GUILD
 	head_position = TRUE
@@ -9,7 +9,7 @@
 	faction = "CEV Eris"
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "your greed"
+	supervisors = "the Captain"
 	selection_color = "#b3a68c"
 	wage = WAGE_NONE	//Guild merchant draws a salary from the guild account
 	also_known_languages = list(LANGUAGE_JIVE = 100)
@@ -63,161 +63,3 @@ Your second loyalty is to the guild. Ensure it retains good relations with priva
 	icon_state = "player-beige-officer"
 	join_tag = /datum/job/merchant
 
-
-
-/datum/job/cargo_tech
-	title = "Guild Technician"
-	flag = GUILDTECH
-	department = DEPARTMENT_GUILD
-	department_flag = GUILD
-	faction = "CEV Eris"
-	total_positions = 3
-	spawn_positions = 3
-	supervisors = "the Guild Merchant"
-	selection_color = "#c3b9a6"
-	also_known_languages = list(LANGUAGE_JIVE = 100)
-	wage = WAGE_LABOUR_DUMB
-	department_account_access = TRUE
-	outfit_type = /decl/hierarchy/outfit/job/cargo/cargo_tech
-
-	access = list(
-		access_maint_tunnels, access_mailsorting, access_cargo, access_cargo_bot, access_mining,
-		access_mining_station
-	)
-
-	stat_modifiers = list(
-		STAT_ROB = 10,
-		STAT_TGH = 10,
-		STAT_VIG = 10,
-	)
-
-	perks = list(/datum/perk/deep_connection)
-
-	software_on_spawn = list(///datum/computer_file/program/supply,
-							 ///datum/computer_file/program/deck_management,
-							 /datum/computer_file/program/scanner,
-							 /datum/computer_file/program/wordprocessor,
-							 /datum/computer_file/program/reports)
-
-
-	description = "You are a low ranking member of the Asters' Merchant Guild, and an apprentice to the local merchant.  You may one day take over his position. You are equal parts scavenger, loader, shopkeeper and salesman. Remember the guild's core role here. To keep everyone supplied with everything they could need, and to profit from this endeavour<br>\
-<br>\
-Your main duties are to keep the local guild branch operational and profitable. To that end you should look out for all of the following tasks:"
-
-	duties = "	-Delivering goods to persons or departments that ordered them<br>\
-	-Staffing the front desk, taking payments and orders, buying up items from scavengers that come to sell things.<br>\
-	-Visiting departments to take orders in person, ask if there's anything they need, and try to sell them unusual items that may aid their efforts.<br>\
-	-Providing lesser services. Busted lights? Broken vendors? The guild can be there to help, for a small fee.<br>\
-	-In quieter times, head into maintenance areas and scavenge for useful goods to resell"
-
-	loyalties = "		Your first loyalty is to yourself and survival. This ship is mostly just a paycheck to you<br>\
-		Your second loyalty is to the merchant, he ensures you're well paid and respected, in a universe where workers are often treated as interchangeable parts."
-
-/obj/landmark/join/start/cargo_tech
-	name = "Guild Technician"
-	icon_state = "player-beige"
-	join_tag = /datum/job/cargo_tech
-
-/datum/job/mining
-	title = "Guild Miner"
-	flag = MINER
-	department = DEPARTMENT_GUILD
-	department_flag = GUILD
-	faction = "CEV Eris"
-	total_positions = 4
-	spawn_positions = 4
-	supervisors = "the Guild Merchant"
-	selection_color = "#c3b9a6"
-	wage = WAGE_LABOUR_HAZARD //The miners union is stubborn
-	also_known_languages = list(LANGUAGE_JIVE = 100)
-
-	outfit_type = /decl/hierarchy/outfit/job/cargo/mining
-
-	description = "You are an asteroid miner, working in resource Procurement for the local branch of Asters' Merchant Guild.<br>\
-Your primary responsibility is to head out on the Mining Barge, and dig up as much ore as you can on an asteroid. The barge contains all the facilities to process that ore too, and allows you to deliver refined materials ready for use.<br>\
-<br>\
-All the stuff you dig up goes to the guild, and from then on it's the merchant's responsibility to sell it to other departments. <br>\
-<br>\
-Your second responsibility is to help out aboard ship, while waiting to reach an asteroid. Quite notably, the roaches infesting the ship make heavy use of burrows to get around. You have the tools and expertise to effectively deal with these burrows, and you should try to destroy them wherever you find them<br>\
-<br>\
-Your third responsibility is as an unofficial security guard. The guild is a popular target for thieves, and one of the unspoken reasons for keeping rough, sturdy people like you on the payroll is to deter those thieves, and punish them with a swift beating for attempting to steal from the merchant. Try to keep the beatings nonlethal though, murder generates too much bad publicity<br>\
-<br>\
-Character Expectations:<br>\
-	Miners should be tough and physically strong. Unafraid to get their hands dirty.<br>\
-	You should be competent in an EVA suit and in operating heavy machinery"
-
-
-	duties = "Dig up ores and minerals, process them into useable material.<br>\
-	Collapse burrows around the ship to help fight off the roach infestation<br>\
-	Protect the Guild wing and the merchant, from thieves and intruders."
-
-	loyalties = "	Your first loyalty is to yourself and survival. This ship is mostly just a paycheck to you<br>\
-	Your second loyalty is to the merchant, he ensures you're well paid and respected, in a universe where workers are often treated as interchangeable parts.	"
-
-	access = list(
-		access_maint_tunnels, access_mailsorting, access_cargo, access_cargo_bot, access_mining,
-		access_mining_station
-	)
-
-
-	stat_modifiers = list(
-		STAT_ROB = 15,
-		STAT_TGH = 15,
-		STAT_VIG = 15,
-		STAT_MEC = 15
-	)
-
-	perks = list(/datum/perk/deep_connection)
-
-	software_on_spawn = list(///datum/computer_file/program/supply,
-							 ///datum/computer_file/program/deck_management,
-							 /datum/computer_file/program/wordprocessor,
-							 /datum/computer_file/program/reports)
-
-/obj/landmark/join/start/mining
-	name = "Guild Miner"
-	icon_state = "player-beige"
-	join_tag = /datum/job/mining
-
-/datum/job/artist
-	title = "Guild Artist"
-	flag = ARTIST
-	department = DEPARTMENT_GUILD
-	department_flag = GUILD
-	faction = "CEV Eris"
-	total_positions = 2
-	spawn_positions = 1
-	supervisors = "the Guild Merchant"
-	selection_color = "#dddddd"
-	also_known_languages = list(LANGUAGE_JIVE = 100)
-	access = list(access_maint_tunnels, access_mailsorting, access_cargo, access_cargo_bot, access_mining, access_mining_station, access_artist, access_theatre)
-
-	outfit_type = /decl/hierarchy/outfit/job/cargo/artist
-	wage = WAGE_LABOUR_DUMB	//Barely a retaining fee. Actor can busk for credits to keep themselves fed
-	stat_modifiers = list(
-		STAT_TGH = 30,
-	)
-
-	perks = list(PERK_ARTIST)
-
-	software_on_spawn = list(///datum/computer_file/program/supply,
-							 ///datum/computer_file/program/deck_management,
-							 /datum/computer_file/program/scanner,
-							 /datum/computer_file/program/wordprocessor,
-							 /datum/computer_file/program/reports)
-
-	description = "You are a creative soul aboard this vessel. You have been conscripted by the Aster's Guild to create masterful works of art to be sold at mind-boggling prices... and something about the CEV Eris and it's doomed journey sparks the fire of creation within you.<br>\
-	You do not gain desires like other members of the crew. Instead, you stop gaining insight once you max out at 100 points.<br>\
-	You can gain desires by spending this insight at your Artist's Bench to build a work of art, this art you create vary wildly in type, quality, and (most importantly, in the eyes of the Merchant) value. Sell your artwork to the unwashed masses, or give you work to the merchant to sell for a profit."
-
-	duties = "Create works of art using your insight.<br>\
-	Sell your work, or give it to the merchant to sell for you.<br>\
-	Be in the midst of action or combat to level your insight faster."
-
-	loyalties = "You are loyal to your soul, first and foremost. You are fascinated by this cursed ship, and want to mold this interest into your works of art.<br>\
-	Your second loyalty is to the merchant and the Aster's Guild as a whole. After all, they're the ones giving you housing, payment, and materials to create your art."
-
-/obj/landmark/join/start/artist
-	name = "Guild Artist"
-	icon_state = "player-grey"
-	join_tag = /datum/job/artist

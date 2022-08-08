@@ -1,72 +1,15 @@
-/datum/job/chief_engineer
-	title = "Technomancer Exultant"
-	flag = EXULTANT
-	head_position = 1
-	department = DEPARTMENT_ENGINEERING
-	department_flag = ENGINEERING | COMMAND
-	faction = "CEV Eris"
-	total_positions = 1
-	spawn_positions = 1
-	supervisors = "the Captain"
-	selection_color = "#c7b97b"
-	req_admin_notify = 1
-	also_known_languages = list(LANGUAGE_CYRILLIC = 100)
-	wage = WAGE_COMMAND
-	ideal_character_age = 50
-
-	outfit_type = /decl/hierarchy/outfit/job/engineering/exultant
-
-	access = list(
-		access_engine, access_engine_equip, access_tech_storage, access_maint_tunnels,
-		access_teleporter, access_network, access_external_airlocks, access_atmospherics, access_emergency_storage, access_eva,
-		access_heads, access_construction, access_sec_doors,
-		access_ce, access_RC_announce, access_keycard_auth, access_tcomsat, access_ai_upload, access_change_engineering
-	)
-
-	stat_modifiers = list(
-		STAT_MEC = 40,
-		STAT_COG = 20,
-		STAT_TGH = 15,
-		STAT_VIG = 15,
-	)
-
-	software_on_spawn = list(/datum/computer_file/program/comm,
-							 /datum/computer_file/program/ntnetmonitor,
-							 /datum/computer_file/program/power_monitor,
-							 /datum/computer_file/program/supermatter_monitor,
-							 /datum/computer_file/program/alarm_monitor,
-							 /datum/computer_file/program/atmos_control,
-							 /datum/computer_file/program/rcon_console,
-							 /datum/computer_file/program/camera_monitor,
-							 /datum/computer_file/program/shield_control,
-							 /datum/computer_file/program/reports)
-
-	description = "You are an exultant, the head of a technomancer clan, nomadic spacefaring engineers. You and your clan have taken up residence on Eris, it is your work, your home, and your pride. <br>\
-You are to keep the ship running and constantly improve it as much as you are able. Let none question the efficacy of your labours."
-
-	loyalties = "Your first loyalty is to your pride. The engineering department is your territory, and machinery across the ship are your responsibility. Do not tolerate others interfering with them, intruding on your space, or questioning your competence. You don't need inspections, oversight or micromanagement. Outsiders should only enter your spaces by invitation, or out of necessity. Even the captain and other command staff are no exception.<br>\
-
-Your second loyalty is to your clan. Ensure they are paid, fed and safe. Don't risk their lives unnecessarily. If an area is infested with monsters, there's no reason to risk lives trying to repair anything inside there. If one of your people is imprisoned, endangered or accused, you should fight for them. Treat every technomancer like your family"
-
-	perks = list(/datum/perk/inspiration)
-
-/obj/landmark/join/start/chief_engineer
-	name = "Technomancer Exultant"
-	icon_state = "player-orange-officer"
-	join_tag = /datum/job/chief_engineer
-
 
 /datum/job/technomancer
-	title = "Technomancer"
+	title = "Engineer"
 	flag = TECHNOMANCER
 	department = DEPARTMENT_ENGINEERING
 	department_flag = ENGINEERING
 	faction = "CEV Eris"
 	total_positions = 5
 	spawn_positions = 5
-	supervisors = "the Technomancer Exultant"
+	supervisors = "the Captain"
 	selection_color = "#d5c88f"
-	also_known_languages = list(LANGUAGE_CYRILLIC = 100)
+	also_known_languages = list(LANGUAGE_CYRILLIC = 50)
 	wage = WAGE_PROFESSIONAL
 
 	outfit_type = /decl/hierarchy/outfit/job/engineering/engineer

@@ -3,7 +3,7 @@
 	desc = "Military style turtleneck, for operating in cold environments. Typically worn underneath armour"
 	icon_state = "greenturtle"
 	item_state = "bl_suit"
-	has_sensor = 0
+	has_sensor = 1
 	price_tag = 50
 	spawn_blacklisted = TRUE
 

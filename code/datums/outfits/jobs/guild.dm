@@ -6,12 +6,6 @@
 	name = OUTFIT_JOB_NAME("Guild Merchant")
 	uniform = /obj/item/clothing/under/rank/cargotech
 	shoes = /obj/item/clothing/shoes/color/brown
-<<<<<<< HEAD
-	glasses = /obj/item/clothing/glasses/sunglasses
-=======
-	glasses = /obj/item/clothing/glasses/sunglasses/big
-	suit = /obj/item/clothing/suit/storage/qm_coat
->>>>>>> 0bf604405ca08908696c0af209bbb01175604fe3
 	l_hand = /obj/item/clipboard
 	id_type = /obj/item/card/id/car
 	pda_type = /obj/item/modular_computer/pda/cargo

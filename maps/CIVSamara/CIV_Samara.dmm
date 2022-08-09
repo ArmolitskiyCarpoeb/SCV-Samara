@@ -503,6 +503,7 @@
 "jI" = (/obj/structure/shuttle_part/science{icon_state = "1,3"},/turf/space,/area/shuttle/research/station)
 "jJ" = (/obj/structure/medical_stand,/turf/simulated/floor/tiled/white,/area/samara/medical/medbay)
 "jK" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/tiled/white/techfloor_grid,/area/samara/medical/medbay)
+"jL" = (/obj/machinery/atmospherics/portables_connector,/obj/machinery/portable_atmospherics/canister/plasma{anchored = 1},/obj/machinery/alarm{pixel_y = 26},/turf/simulated/floor/tiled/steel/danger,/area/samara/engineering/atmos)
 "jM" = (/obj/machinery/light{dir = 4},/obj/machinery/chemical_dispenser,/turf/simulated/floor/tiled/white/brown_perforated,/area/samara/medical/medbay)
 "jN" = (/turf/simulated/wall/r_wall,/area/samara/medical/medbay)
 "jO" = (/obj/machinery/disposal,/obj/structure/disposalpipe/trunk,/turf/simulated/floor/tiled/white/brown_perforated,/area/samara/medical/virology)
@@ -2082,6 +2083,7 @@
 "Oc" = (/obj/structure/mirror{pixel_y = 27},/turf/simulated/floor/tiled/white/brown_perforated,/area/samara/security/prison)
 "Od" = (/obj/structure/extinguisher_cabinet{pixel_x = -26},/turf/simulated/floor/tiled/dark,/area/samara/security/main)
 "Oe" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/tiled/dark,/area/samara/security/main)
+"Of" = (/obj/machinery/atmospherics/portables_connector,/obj/machinery/portable_atmospherics/canister/oxygen{anchored = 1},/turf/simulated/floor/tiled/steel/danger,/area/samara/engineering/atmos)
 "Og" = (/obj/structure/window/reinforced{dir = 1},/obj/structure/table/rack/shelf,/obj/item/gun/projectile/shotgun/slidebarrel,/obj/item/clothing/glasses/powered/night,/obj/item/clothing/glasses/powered/night,/obj/item/ammo_magazine/m12/pellet,/obj/item/ammo_casing/shotgun/pellet/prespawned,/obj/item/ammo_casing/shotgun/pellet/prespawned,/obj/item/ammo_casing/shotgun/prespawned,/obj/item/ammo_casing/shotgun/prespawned,/obj/item/ammo_casing/shotgun/prespawned,/turf/simulated/floor/tiled/dark/gray_perforated,/area/samara/security/armoury)
 "Oh" = (/obj/machinery/atmospherics/unary/vent_pump/on{dir = 1},/turf/simulated/floor/tiled/dark,/area/samara/security/armoury)
 "Oi" = (/obj/structure/window/reinforced{dir = 1},/obj/structure/table/rack/shelf,/obj/item/grenade/flashbang,/obj/item/grenade/flashbang,/obj/item/grenade/chem_grenade/teargas,/obj/item/grenade/chem_grenade/teargas,/obj/item/grenade/chem_grenade/teargas,/obj/item/ammo_kit,/turf/simulated/floor/tiled/dark/gray_perforated,/area/samara/security/armoury)
@@ -2171,8 +2173,8 @@
 "PO" = (/obj/machinery/atmospherics/binary/passive_gate{name = "Oxygen Suplly  (Chamber)"},/turf/simulated/floor/tiled/steel/techfloor_grid,/area/samara/engineering/atmos)
 "PP" = (/obj/machinery/atmospherics/binary/passive_gate{name = "Plasma Suplly (Port)"},/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/steel/techfloor,/area/samara/engineering/atmos)
 "PQ" = (/obj/machinery/atmospherics/binary/passive_gate{name = "Oxygen Suplly  (Port)"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/tiled/steel/techfloor,/area/samara/engineering/atmos)
-"PR" = (/obj/machinery/atmospherics/portables_connector,/obj/machinery/portable_atmospherics/canister/plasma,/obj/machinery/alarm{pixel_y = 26},/turf/simulated/floor/tiled/steel/danger,/area/samara/engineering/atmos)
-"PS" = (/obj/machinery/atmospherics/portables_connector,/obj/machinery/portable_atmospherics/canister/oxygen,/turf/simulated/floor/tiled/steel/danger,/area/samara/engineering/atmos)
+"PR" = (/obj/machinery/atmospherics/portables_connector{dir = 1},/obj/machinery/portable_atmospherics/canister/plasma{anchored = 1},/obj/machinery/firealarm{dir = 1; pixel_y = -28},/turf/simulated/floor/tiled/steel/danger,/area/samara/engineering/atmos)
+"PS" = (/obj/machinery/atmospherics/portables_connector{dir = 1},/obj/machinery/portable_atmospherics/canister/plasma{anchored = 1},/turf/simulated/floor/tiled/steel/danger,/area/samara/engineering/atmos)
 "PT" = (/obj/machinery/light{dir = 8},/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 4},/turf/simulated/floor/tiled/steel/orangecorner,/area/samara/engineering/shield_generator)
 "PU" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/turf/simulated/floor/tiled/steel/orangecorner,/area/samara/engineering/shield_generator)
 "PV" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 10},/turf/simulated/floor/tiled/steel/orangecorner,/area/samara/engineering/shield_generator)
@@ -2203,8 +2205,6 @@
 "Qu" = (/obj/machinery/atmospherics/binary/passive_gate{dir = 8; name = "Port to Chamber"},/turf/simulated/floor/tiled/steel/techfloor_grid,/area/samara/engineering/atmos)
 "Qv" = (/obj/machinery/atmospherics/pipe/simple/visible/yellow{dir = 9},/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/steel/techfloor,/area/samara/engineering/atmos)
 "Qw" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/tiled/steel/techfloor,/area/samara/engineering/atmos)
-"Qx" = (/obj/machinery/atmospherics/portables_connector{dir = 1},/obj/machinery/portable_atmospherics/canister/plasma,/obj/machinery/firealarm{dir = 1; pixel_y = -28},/turf/simulated/floor/tiled/steel/danger,/area/samara/engineering/atmos)
-"Qy" = (/obj/machinery/atmospherics/portables_connector{dir = 1},/obj/machinery/portable_atmospherics/canister/plasma,/turf/simulated/floor/tiled/steel/danger,/area/samara/engineering/atmos)
 "Qz" = (/obj/item/modular_computer/console/preset/engineering/shield{dir = 1},/obj/machinery/power/apc{name = "South APC"; pixel_y = -28},/obj/structure/cable/yellow,/obj/machinery/alarm{dir = 4; pixel_x = -22},/turf/simulated/floor/tiled/steel/gray_platform,/area/samara/engineering/shield_generator)
 "QA" = (/obj/structure/table/rack,/obj/spawner/material/building,/obj/spawner/material/building,/obj/spawner/material/building,/obj/spawner/material/building/low_chance,/obj/spawner/material/building/low_chance,/obj/spawner/material/building/low_chance,/turf/simulated/floor/tiled/steel/gray_platform,/area/samara/engineering/shield_generator)
 "QB" = (/obj/structure/cable/yellow{d1 = 1; d2 = 2; icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/tiled/steel/orangecorner,/area/samara/engineering/shield_generator)
@@ -2574,9 +2574,9 @@ aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaazR
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaazRzRzRzvPePfPgPhPiPjPkPkPkPkPaOZCKPlPnCKxqxqfFaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaatSaaaaPoPpPqPrPsPtPuPvPvPwPkPkPaPxPyPxCKxqxqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaPoPzPzPoPAPBPCPDPEPEPvPFPGPHPkPxPxPJPxPxxqxqaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaPoPKPLPMPNPOPPPQPRPSPvPTPUPVPWPXPYPZQaPxvtxmaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaRVaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaPoPKPLPMPNPOPPPQjLOfPvPTPUPVPWPXPYPZQaPxvtxmaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaRVaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaPoQbQcQdQeQfQgQhQiQjPvQkQlQmQnPXQoQpQqPxvtxmaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaazvQrQsQrQtQuQvQwQxQyPvQzQAQBQCPXQDQEQFPxvtxmaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaazvQrQsQrQtQuQvQwPRPSPvQzQAQBQCPXQDQEQFPxvtxmaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaazvQGQHQIQJQKQLQMPEPEPvPvQNQOQNPyQPQQQRPxvtxmaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaazvzvQSQTQUQUQVQWQwBfQXQYBfQZRaRbPyPXRcPXPxvtxmaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaVfRdReRfRgRhRiRjRkQwBfRlRmBfRnRoRlRpRmRoRnBfvtxmaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa

@@ -2,8 +2,7 @@
 # Endless Horizon: CEV-Eris [![Build Status](https://travis-ci.org/discordia-space/CEV-Eris.svg?branch=master)](https://travis-ci.org/Endless-Horizon/CEV-Eris)
 [![discord](https://discordapp.com/api/guilds/255035529085583360/widget.png)](https://discord.gg/QfEg7K7)
 
-Корабль, который должен умирать.
-
+Корабль, который должен сосать.
 ## CONTRIBUTING
 
 Please see [CONTRIBUTING.md](CONTRIBUTING.md)

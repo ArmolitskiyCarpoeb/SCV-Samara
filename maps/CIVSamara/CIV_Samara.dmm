@@ -213,7 +213,7 @@
 "ee" = (/turf/simulated/shuttle/wall/science{icon_state = "12,12"},/area/shuttle/research/station)
 "ef" = (/obj/structure/shuttle_part/science{icon_state = "13,12"},/turf/space,/area/shuttle/research/station)
 "eg" = (/obj/structure/bed/chair/office/dark{dir = 8},/turf/simulated/floor/tiled/steel,/area/samara/hallway/section2)
-"eh" = (/obj/structure/window/basic{dir = 4},/obj/item/modular_computer/console/preset/trade_catalog{dir = 8},/turf/simulated/floor/tiled/steel,/area/samara/hallway/section2)
+"eh" = (/obj/structure/window/basic{dir = 4},/turf/simulated/floor/tiled/steel,/area/samara/hallway/section2)
 "ei" = (/obj/machinery/alarm{dir = 8; pixel_x = 25},/turf/simulated/floor/plating/under,/area/samara/hallway/section2)
 "ej" = (/obj/structure/disposalpipe/segment,/obj/spawner/junk/nondense,/turf/simulated/floor/tiled/techmaint_perforated,/area/samara/maintenance/section2deck2)
 "ek" = (/obj/machinery/craftingstation,/turf/simulated/floor/tiled/steel,/area/samara/quartermaster/hangarsupply)

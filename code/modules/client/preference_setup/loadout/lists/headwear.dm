@@ -139,13 +139,13 @@
 /datum/gear/head/cyberpunkgoggle
 	display_name = "Type-34C Semi-Enclosed Headwear"
 	path = /obj/item/clothing/head/armor/helmet/visor/cyberpunkgoggle
-	cost = 2
+	cost = 1
 
 /datum/gear/head/tanker_helmet/color_presets
 	display_name = "tanker helmet, color presets"
 	path = /obj/item/clothing/head/armor/helmet/tanker
 	allowed_roles = list("Moebius Roboticist", "Guild Technician", "Technomancer", "Technomancer Exultant", ASSISTANT_TITLE)
-	cost = 2
+	cost = 1
 
 /datum/gear/head/tanker_helmet/color_presets/New()
 	..()

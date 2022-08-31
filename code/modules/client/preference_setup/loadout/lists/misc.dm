@@ -1,7 +1,7 @@
 /datum/gear/bible
 	display_name = "NeoTheology ritual book"
 	path = /obj/item/book/ritual/cruciform
-	cost = 2
+	cost = 1
 
 /datum/gear/flashlight
 	display_name = "Flashlight"
@@ -18,7 +18,7 @@
 /datum/gear/clown
 	display_name = "clown pack"
 	path = /obj/item/storage/box/clown
-	cost = 3
+	cost = 1
 	allowed_roles = list("Vagabond")
 
 /datum/gear/dice

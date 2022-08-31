@@ -8,12 +8,12 @@
 /datum/gear/gloves/work
 	display_name = "gloves, work"
 	path = /obj/item/clothing/gloves/thick
-	cost = 3
+	cost = 1
 
 /datum/gear/gloves/rainbow
 	display_name = "gloves, rainbow"
 	path = /obj/item/clothing/gloves/color/rainbow
-	cost = 2
+	cost = 1
 
 /datum/gear/gloves/colored
 	display_name = "gloves, colored"
@@ -43,7 +43,7 @@
 /datum/gear/gloves/german
 	display_name = "gloves, oberth"
 	path = /obj/item/clothing/gloves/german
-	cost = 3
+	cost = 2
 
 /datum/gear/gloves/fingerless
 	display_name = "gloves, fingerless"

@@ -20,9 +20,9 @@
 	)
 
 	stat_modifiers = list(
-		STAT_ROB = 25,
-		STAT_TGH = 20,
-		STAT_VIG = 25,
+		STAT_ROB = 27,
+		STAT_TGH = 22,
+		STAT_VIG = 28,
 	)
 
 	perks = list(/datum/perk/survivor,

@@ -21,8 +21,8 @@
 	)
 
 	stat_modifiers = list(
-		STAT_BIO = 40,
-		STAT_COG = 15
+		STAT_BIO = 45,
+		STAT_COG = 20
 	)
 
 	perks = list(/datum/perk/selfmedicated)

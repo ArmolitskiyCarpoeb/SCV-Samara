@@ -20,10 +20,10 @@
 	)
 	ideal_character_age = 40
 	stat_modifiers = list(
-		STAT_ROB = 10,
+		STAT_ROB = 12,
 		STAT_COG = 20,
 		STAT_MEC = 15,
-		STAT_VIG = 10
+		STAT_VIG = 12
 	)
 
 	perks = list(/datum/perk/merchant, /datum/perk/deep_connection, /datum/perk/oddity/market_prof)
